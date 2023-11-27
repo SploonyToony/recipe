@@ -25,3 +25,14 @@ dt {
     font-size: 16px;
     font-weight: 700;
 }
+nav li{
+    list-style-type: none;
+    margin:0;
+}
+#recipeNav p{
+    visibility: hidden;
+    height: 1px;
+}
+nav a{
+text-decoration: none;
+}
