@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
 h1,h2,h3,nav a, nav span, menu, #mainNav li, #socialsNav li, footer{
-    font-family: Bebas Neue, regular;
+    font-family: Bebas Neue;
+    font-weight: 400;
 }
 h1{
     font-size:40px;
@@ -14,10 +17,11 @@ nav a, nav span, #mainNav li,#socialsNav li, footer{
     font-size:20px;
 }
 p, dd, li, nav, input {
-    font-family: Montserrat, regular;
+    font-family: Montserrat;
     font-size: 16px;
 }
 dt {
-    font-family: Montserrat, bold;
+    font-family: Montserrat;
     font-size: 16px;
+    font-weight: 700;
 }
