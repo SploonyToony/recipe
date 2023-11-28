@@ -16,8 +16,31 @@ h1,h2,h3,nav a, nav span, menu, #mainNav li, #socialsNav li, footer{
 h1,h2{
     text-align: center;
 }
+#recipeNav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+  }
+  dt {
+    float: left;
+    width: 50%;
+    padding: px;
+    margin: 0;
+  }
+  dd {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
 ol{
     text-align: left;
+    line-height: 20pt;
+    margin:10px;
 }
 h1{
     font-size:40px;
@@ -59,7 +82,21 @@ color:#EB5428;
     display: grid;
     grid-template-columns: 1fr;
 }
-
+footer h2{
+    visibility: hidden;
+    height:0px;
+}
+footer{
+    text-align: center;
+}
+#socialsNav h3{
+    visibility: hidden;
+    height: 0px;
+}
+#socialsNav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 @media  screen and (min-width: 768px) {
     
 }
