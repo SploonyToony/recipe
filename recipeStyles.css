@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
 
+body{
+    background-color:rgba(122,191,191,.5);
+}
+main,footer {
+    background-color:#F2F2F2;
+    margin-left:40px;
+    margin-right:40px;
+}
+
 h1,h2,h3,nav a, nav span, menu, #mainNav li, #socialsNav li, footer{
     font-family: Bebas Neue;
     font-weight: 400;
+}
+h1,h2{
+    text-align: center;
+}
+ol{
+    text-align: left;
 }
 h1{
     font-size:40px;
@@ -32,8 +47,23 @@ nav li{
 #recipeNav p{
     visibility: hidden;
     height: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 nav a{
 text-decoration: none;
 color:#EB5428;
+}
+#sideDishes{
+    background-color:#7ABFBF;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media  screen and (min-width: 768px) {
+    
+}
+
+@media  screen and (min-width: 1280px) {
+    
 }
