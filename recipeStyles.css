@@ -83,7 +83,7 @@ color:#EB5428;
     grid-template-columns: 1fr;
     padding: 0px;
 }
-#sideDishes p{
+#sideDishes h4{
     visibility: hidden;
     height:1px;
 }
@@ -108,6 +108,10 @@ color:#EB5428;
   
   .dropdown:hover .dropdown-content {
     display: block;
+}
+#mainNav input[type=text]{
+padding: 10px;
+border:2px solid #EB5428;
 }
 footer h2{
     visibility: hidden;
