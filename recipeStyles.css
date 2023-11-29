@@ -83,6 +83,10 @@ color:#EB5428;
     grid-template-columns: 1fr;
     padding: 0px;
 }
+#sideDishes p{
+    visibility: hidden;
+    height:1px;
+}
 
   .dropdown {
     position: relative;
@@ -97,8 +101,6 @@ color:#EB5428;
     z-index: 1;
     width: auto;
   }
-  
-
   
   .dropdown-content a:hover {
     background-color: #ddd;
