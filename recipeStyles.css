@@ -18,9 +18,14 @@ h1,h2{
 }
 #recipeNav ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
 }
-
+#streetTacos{
+    width: 100%;
+}
+#streetTacos div {
+    margin: 10px;
+}
 dl {
     width: 100%;
     overflow: hidden;
@@ -67,12 +72,7 @@ nav li{
     list-style-type: none;
     margin:0;
 }
-#recipeNav p{
-    visibility: hidden;
-    height: 1px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+
 nav a{
 text-decoration: none;
 color:#EB5428;
@@ -81,6 +81,7 @@ color:#EB5428;
     background-color:#7ABFBF;
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0px;
 }
 footer h2{
     visibility: hidden;
