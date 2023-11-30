@@ -9,7 +9,7 @@ main,footer {
     margin-right:40px;
 }
 
-h1,h2,h3,nav a, nav span, menu, #mainNav li, #socialsNav li, footer{
+h1,h2,h3,nav a, nav span, menu, #mainNav li, #socialsNav li, footer p{
     font-family: Bebas Neue;
     font-weight: 400;
 }
@@ -56,7 +56,7 @@ h2{
 h3{
     font-size:25px;
 }
-nav a, nav span, #mainNav li,#socialsNav li, footer{
+nav a, nav span, #mainNav li,#socialsNav li, footer p{
     font-size:20px;
 }
 p, dd, li, nav, input {
@@ -88,27 +88,6 @@ color:#EB5428;
     height:1px;
 }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #F2F2F2;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: auto;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-}
 #mainNav input[type=text]{
 padding: 10px;
 border:2px solid #EB5428;
@@ -128,8 +107,48 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+#tacoCheesington{
+    height: 50%;
+    width: 50%;
+}
 @media  screen and (min-width: 768px) {
-    
+    #details {
+        grid-area:details;
+    }
+    #ingredients {
+        grid-area:ingredients;
+    }
+    #directions {
+        grid-area:directions;
+    }
+    #recipe{
+        display: grid;
+        grid-template-areas: 
+        "details details"
+        "ingredients directions"
+    }
+    #sideDishes h2{
+        grid-area:h2;
+    }
+    #mexicanRice {
+        grid-area:mexicanRice;
+    }
+    #salsa {
+        grid-area:salsa;
+    }
+    #guacamole{
+        grid-area:guacamole;
+    }
+    #tortillas {
+        grid-area:tortillas;
+    }
+    #sideDishes {
+        display: grid;
+        grid-template-areas: 
+        "h2 h2"
+        "mexicanRice salsa"
+        "guacamole tortillas"
+    }
 }
 
 @media  screen and (min-width: 1280px) {
