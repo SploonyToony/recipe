@@ -77,6 +77,9 @@ nav a{
 text-decoration: none;
 color:#EB5428;
 }
+#tacosDesc section{
+    padding: 7px;
+}
 #sideDishes{
     background-color:#7ABFBF;
     display: grid;
