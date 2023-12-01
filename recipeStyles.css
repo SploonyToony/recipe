@@ -93,6 +93,12 @@ color:#EB5428;
     visibility: hidden;
     height:1px;
 }
+#sideDishes img{
+    height: 100px;
+    width:100px;
+    display: inline-block;
+    padding-left: 10px;
+}
 #mainNav{
     position:relative;
     top:0px;
@@ -146,6 +152,7 @@ footer{
     height: 250px;
     width: 250px;
 }
+
 @media  screen and (min-width: 768px) {
     #sideDishes img{
         height: 150px;
@@ -173,11 +180,6 @@ footer{
     }
     #mexicanRice {
         grid-area:mexicanRice;
-    }
-    #sideDishes h3,#sideDishes p, #sideDishes dl,{
-        display: inline-block;
-        padding-left: 100px;
-        
     }
     #salsa {
         grid-area:salsa;
